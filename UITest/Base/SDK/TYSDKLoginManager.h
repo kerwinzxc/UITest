@@ -1,5 +1,5 @@
 //
-//  SDKLoginManager.h
+//  TYSDKLoginManager.h
 //  UITest
 //
 //  Created by tianyou_ios on 2019/1/8.
@@ -7,12 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SDKContainer.h"
+#import "TYSDKContainer.h"
+#import "TYSDKLoginReq.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SDKLoginManager : NSObject
+@interface TYSDKLoginManager : NSObject<TYSDKContainerDelegate>
 +(instancetype)sharedInstance;
 
 -(void)TYInitSDK:(NSString *)gameVersion;

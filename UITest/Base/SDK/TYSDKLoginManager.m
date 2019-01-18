@@ -1,41 +1,94 @@
 //
-//  SDKLoginManager.m
+//  TYSDKLoginManager.m
 //  UITest
 //
 //  Created by tianyou_ios on 2019/1/8.
 //  Copyright © 2019 tianyou_ios. All rights reserved.
 //
 
-#import "SDKLoginManager.h"
+#import "TYSDKLoginManager.h"
 
 
-@implementation SDKLoginManager
+@implementation TYSDKLoginManager
 +(instancetype)sharedInstance{
-    static SDKLoginManager* instance=nil;
+    static TYSDKLoginManager* instance=nil;
     static dispatch_once_t once= 0;
     dispatch_once (&once,^{
-        instance = [[SDKLoginManager alloc]init];
+        instance = [[TYSDKLoginManager alloc]init];
     });
     return instance;
 }
 
 -(void)TYInitSDK:(NSString *)gameVersion{
-    [[SDKContainer sharedInstance]doInitThirdSDK:self gameVersion:gameVersion];
+    [[TYSDKContainer sharedInstance]doInitThirdSDK:self gameVersion:gameVersion];
 }
 -(void)TYLoginSDK{
-    [[SDKContainer sharedInstance] loginSDK];
+    [[TYSDKContainer sharedInstance] loginSDK];
 }
 -(void)TYLogoutSDK{
-    [[SDKContainer sharedInstance] logoutSDK];
+    [[TYSDKContainer sharedInstance] logoutSDK];
 }
 -(void)TYSwithchUserSDK{
-    [[SDKContainer sharedInstance] switchUser];
+    [[TYSDKContainer sharedInstance] switchUser];
 }
 -(void)TYPaySDK{
-     [[SDKContainer sharedInstance] paySDK];
+     [[TYSDKContainer sharedInstance] paySDK];
 }
 -(void)TYUsersCenterSDK{
-    [[SDKContainer sharedInstance] showTheUserCenter];
+    [[TYSDKContainer sharedInstance] showTheUserCenter];
+}
+
+
+-(void)initFinish:(NSDictionary*)initMsg{
+    
+    [self TYLoginSDK];
+    NSLog(@"SDK Init Success");
+}
+-(void)loginFinished:(NSDictionary*)loginMsg{
+    NSLog(@"SDK Login Success");
+    
+}
+-(void)logoutFinished:(NSDictionary*)logoutMsg{
+    [self notifitionLogoutSuccess];
+    NSLog(@"SDK Logout Success");
+}
+-(void)payFinish:(NSDictionary*)payMsg{
+    NSLog(@"SDK Pay Finish");
+}
+
+//通知
+-(void)notifitionLoginSuccess:(TYSDKUser *)sdkUser{
+//    [[NSNotificationCenter defaultCenter]postNotificationName:<#(nonnull NSNotificationName)#> object:self userInfo:<#(nullable NSDictionary *)#>];
+     NSLog(@"SDK Login Success");
+}
+-(void)notifitionLoginError{
+     NSLog(@"SDK Login Error");
+}
+-(void)notifitionLoginCancel{
+     NSLog(@"SDK Login Cancel");
+}
+
+-(void)notifitionLogoutSuccess{
+     NSLog(@"SDK Login Cancel");
+}
+
+-(void)notifitionCreateOrderError{
+     NSLog(@"SDK Create Order Error");
+}
+-(void)notifitionPaySuccess{
+     NSLog(@"SDK Pay Success");
+}
+-(void)notifitionPayCancel{
+     NSLog(@"SDK Pay Cancel");
+}
+-(void)notifitionPayError{
+     NSLog(@"SDK Pay Error");
+}
+-(void)notifitionPayShippingStatus{
+     NSLog(@"SDK Pay Shipping");
+}
+-(void)notifitionPayNetError{
+     NSLog(@"SDK Pay Net Error");
 }
 
 @end

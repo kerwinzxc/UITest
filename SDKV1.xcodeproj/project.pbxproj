@@ -1,0 +1,1089 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		75404CF121DE1CBB005C67A8 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 75404CF221DE1CBB005C67A8 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				75404CF921DE1CCC005C67A8 /* ShellScript */,
+			);
+			dependencies = (
+				75404CF821DE1CC8005C67A8 /* PBXTargetDependency */,
+				75404CF621DE1CC5005C67A8 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		7500A4DA21E4769E00453B79 /* TYSDKContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7500A4D621E4769E00453B79 /* TYSDKContainer.h */; };
+		7500A4E021E4769E00453B79 /* TYSDKContainer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7500A4D821E4769E00453B79 /* TYSDKContainer.mm */; };
+		7500A4EE21E476B200453B79 /* TYSDKLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A4E421E476B200453B79 /* TYSDKLoginManager.m */; };
+		7500A4EF21E476B200453B79 /* TYSDKResponseBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7500A4E521E476B200453B79 /* TYSDKResponseBase.h */; };
+		7500A4F221E476B200453B79 /* TYSDKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A4E621E476B200453B79 /* TYSDKUser.m */; };
+		7500A4F521E476B200453B79 /* TYSDKLoginReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A4E721E476B200453B79 /* TYSDKLoginReq.m */; };
+		7500A4F621E476B200453B79 /* TYSDKUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 7500A4E821E476B200453B79 /* TYSDKUser.h */; };
+		7500A4F921E476B200453B79 /* TYSDKResponseBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A4E921E476B200453B79 /* TYSDKResponseBase.m */; };
+		7500A4FA21E476B200453B79 /* TYSDKLoginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7500A4EA21E476B200453B79 /* TYSDKLoginManager.h */; };
+		7500A4FB21E476B200453B79 /* TYSDKLoginReq.h in Headers */ = {isa = PBXBuildFile; fileRef = 7500A4EB21E476B200453B79 /* TYSDKLoginReq.h */; };
+		7500A50421E47FBD00453B79 /* UIColor+ColorChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A50321E47FBD00453B79 /* UIColor+ColorChange.m */; };
+		7500A50721E47FD700453B79 /* TYLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A50521E47FD700453B79 /* TYLoginView.m */; };
+		7500A50A21E47FFE00453B79 /* TYRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A50821E47FFD00453B79 /* TYRegisterView.m */; };
+		7500A50B21E47FFE00453B79 /* TYRegisterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7500A50921E47FFD00453B79 /* TYRegisterView.h */; };
+		7500A50E21E485D300453B79 /* TYSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7500A50C21E485D300453B79 /* TYSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7500A50F21E485D300453B79 /* TYSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A50D21E485D300453B79 /* TYSDK.m */; };
+		7500A51421E48D2300453B79 /* UIColor+ColorChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 7500A50221E47FBD00453B79 /* UIColor+ColorChange.h */; };
+		7500A51521E48D2A00453B79 /* TYLoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7500A50621E47FD700453B79 /* TYLoginView.h */; };
+		75026B4721EED6240062D162 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75026B4621EED6240062D162 /* Bolts.framework */; };
+		75026B4A21EED6430062D162 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75026B4821EED6410062D162 /* FBSDKLoginKit.framework */; };
+		75026B4B21EED6430062D162 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75026B4921EED6420062D162 /* FBSDKCoreKit.framework */; };
+		75026B4C21EEE11D0062D162 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75026B4621EED6240062D162 /* Bolts.framework */; };
+		75026B4D21EEE11D0062D162 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75026B4921EED6420062D162 /* FBSDKCoreKit.framework */; };
+		75026B4E21EEE11D0062D162 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75026B4821EED6410062D162 /* FBSDKLoginKit.framework */; };
+		75026B5121EEE52E0062D162 /* TYSDKPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 75026B4F21EEE52E0062D162 /* TYSDKPay.h */; };
+		75026B5221EEE52E0062D162 /* TYSDKPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 75026B5021EEE52E0062D162 /* TYSDKPay.m */; };
+		75151A3821E6DF7C00CF45AA /* TYforgetPswView.h in Headers */ = {isa = PBXBuildFile; fileRef = 75151A3621E6DF7C00CF45AA /* TYforgetPswView.h */; };
+		75151A3921E6DF7C00CF45AA /* TYforgetPswView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75151A3721E6DF7C00CF45AA /* TYforgetPswView.m */; };
+		751895ED21E9D8DF002D6C6B /* TYLoginLogic.h in Headers */ = {isa = PBXBuildFile; fileRef = 751895EB21E9D8DF002D6C6B /* TYLoginLogic.h */; };
+		751895EE21E9D8DF002D6C6B /* TYLoginLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 751895EC21E9D8DF002D6C6B /* TYLoginLogic.m */; };
+		75404C8321DE1382005C67A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75404C8221DE1382005C67A8 /* AppDelegate.m */; };
+		75404C8621DE1382005C67A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75404C8521DE1382005C67A8 /* ViewController.m */; };
+		75404C8921DE1382005C67A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75404C8721DE1382005C67A8 /* Main.storyboard */; };
+		75404C8B21DE1383005C67A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75404C8A21DE1383005C67A8 /* Assets.xcassets */; };
+		75404C8E21DE1383005C67A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75404C8C21DE1383005C67A8 /* LaunchScreen.storyboard */; };
+		75404C9121DE1383005C67A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75404C9021DE1383005C67A8 /* main.m */; };
+		75404CFC21DE1D61005C67A8 /* libTYSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75404CE521DE1B50005C67A8 /* libTYSDK.a */; };
+		75404CFD21DE1D68005C67A8 /* TYSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 75404CA821DE161B005C67A8 /* TYSDKResource.bundle */; };
+		757F23BA21F07E220067F5DF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757F23B921F07E220067F5DF /* AdSupport.framework */; };
+		757F23BB21F07E310067F5DF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757F23B921F07E220067F5DF /* AdSupport.framework */; };
+		757F23BD21F08D990067F5DF /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 757F23BC21F08D990067F5DF /* Reachability.h */; };
+		757F23BF21F08DA10067F5DF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 757F23BE21F08DA10067F5DF /* Reachability.m */; };
+		757F23C121F08DC90067F5DF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757F23C021F08DC90067F5DF /* SystemConfiguration.framework */; };
+		75A4930621F166FD008ABE99 /* NSString+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A4930421F166FD008ABE99 /* NSString+URLEncode.h */; };
+		75A4930721F166FD008ABE99 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4930521F166FD008ABE99 /* NSString+URLEncode.m */; };
+		75E80F0321E837F9008D4D72 /* 1-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E80EFE21E837F9008D4D72 /* 1-9.png */; };
+		75E80F0421E837F9008D4D72 /* 1-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E80EFF21E837F9008D4D72 /* 1-6.png */; };
+		75E80F0521E837F9008D4D72 /* 1-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E80F0021E837F9008D4D72 /* 1-5.png */; };
+		75E80F0621E837F9008D4D72 /* 1-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E80F0121E837F9008D4D72 /* 1-7.png */; };
+		75E80F0721E837F9008D4D72 /* 1-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E80F0221E837F9008D4D72 /* 1-8.png */; };
+		75E80F0E21E84B5E008D4D72 /* TYSDKDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E80F0C21E84B5E008D4D72 /* TYSDKDevice.h */; };
+		75E80F0F21E84B5E008D4D72 /* TYSDKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E80F0D21E84B5E008D4D72 /* TYSDKDevice.m */; };
+		75FE8EFB21EC584000C4701B /* TYSDKAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FE8EF921EC584000C4701B /* TYSDKAccount.h */; };
+		75FE8EFC21EC584000C4701B /* TYSDKAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE8EFA21EC584000C4701B /* TYSDKAccount.m */; };
+		75FE8EFF21EC717400C4701B /* TYSDKApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FE8EFD21EC717400C4701B /* TYSDKApi.h */; };
+		75FE8F0021EC717400C4701B /* TYSDKApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE8EFE21EC717400C4701B /* TYSDKApi.m */; };
+		75FE8F0321EC769100C4701B /* TYSDKDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FE8F0121EC769100C4701B /* TYSDKDataModel.h */; };
+		75FE8F0421EC769100C4701B /* TYSDKDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE8F0221EC769100C4701B /* TYSDKDataModel.m */; };
+		75FF3F8321EDB55A00F8B58C /* TY_Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF3F8121EDB55A00F8B58C /* TY_Encryption.m */; };
+		75FF3F8421EDB55A00F8B58C /* TY_Encryption.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF3F8221EDB55A00F8B58C /* TY_Encryption.h */; };
+		75FF3F8721EDBB8F00F8B58C /* TYSDKDataDeal.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF3F8521EDBB8F00F8B58C /* TYSDKDataDeal.h */; };
+		75FF3F8821EDBB8F00F8B58C /* TYSDKDataDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF3F8621EDBB8F00F8B58C /* TYSDKDataDeal.m */; };
+		75FF3FA021EDCA1A00F8B58C /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF3F8A21EDCA1A00F8B58C /* MJPropertyKey.h */; };
+		75FF3FA121EDCA1A00F8B58C /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF3F8B21EDCA1A00F8B58C /* NSObject+MJClass.h */; };
+		75FF3FA221EDCA1A00F8B58C /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF3F8C21EDCA1A00F8B58C /* NSString+MJExtension.h */; };
+		75FF3FA321EDCA1A00F8B58C /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF3F8D21EDCA1A00F8B58C /* MJPropertyType.m */; };
+		75FF3FA421EDCA1A00F8B58C /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF3F8E21EDCA1A00F8B58C /* NSObject+MJProperty.h */; };
+		75FF3FA521EDCA1A00F8B58C /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF3F8F21EDCA1A00F8B58C /* MJExtensionConst.h */; };
+		75FF3FA621EDCA1A00F8B58C /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF3F9021EDCA1A00F8B58C /* NSObject+MJKeyValue.m */; };
+		75FF3FA721EDCA1A00F8B58C /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF3F9121EDCA1A00F8B58C /* MJProperty.m */; };
+		75FF3FA821EDCA1A00F8B58C /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF3F9221EDCA1A00F8B58C /* MJFoundation.h */; };
+		75FF3FA921EDCA1A00F8B58C /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF3F9321EDCA1A00F8B58C /* NSObject+MJCoding.m */; };
+		75FF3FAA21EDCA1A00F8B58C /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF3F9421EDCA1A00F8B58C /* MJExtension.h */; };
+		75FF3FAB21EDCA1A00F8B58C /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF3F9521EDCA1A00F8B58C /* MJExtensionConst.m */; };
+		75FF3FAC21EDCA1A00F8B58C /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF3F9621EDCA1A00F8B58C /* NSObject+MJProperty.m */; };
+		75FF3FAD21EDCA1A00F8B58C /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF3F9721EDCA1A00F8B58C /* MJPropertyType.h */; };
+		75FF3FAE21EDCA1A00F8B58C /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF3F9821EDCA1A00F8B58C /* NSObject+MJClass.m */; };
+		75FF3FAF21EDCA1A00F8B58C /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF3F9921EDCA1A00F8B58C /* NSString+MJExtension.m */; };
+		75FF3FB021EDCA1A00F8B58C /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF3F9A21EDCA1A00F8B58C /* MJPropertyKey.m */; };
+		75FF3FB121EDCA1A00F8B58C /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF3F9B21EDCA1A00F8B58C /* MJProperty.h */; };
+		75FF3FB221EDCA1A00F8B58C /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF3F9C21EDCA1A00F8B58C /* NSObject+MJKeyValue.h */; };
+		75FF3FB321EDCA1A00F8B58C /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF3F9D21EDCA1A00F8B58C /* NSObject+MJCoding.h */; };
+		75FF3FB421EDCA1A00F8B58C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75FF3F9E21EDCA1A00F8B58C /* Info.plist */; };
+		75FF3FB521EDCA1A00F8B58C /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF3F9F21EDCA1A00F8B58C /* MJFoundation.m */; };
+		75FF3FB921EDE79E00F8B58C /* TYSDKNetW.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FF3FB721EDE79E00F8B58C /* TYSDKNetW.h */; };
+		75FF3FBA21EDE79E00F8B58C /* TYSDKNetW.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FF3FB821EDE79E00F8B58C /* TYSDKNetW.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75404CB021DE166E005C67A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75404C7621DE1382005C67A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75404CA721DE161B005C67A8;
+			remoteInfo = Resource01;
+		};
+		75404CF521DE1CC5005C67A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75404C7621DE1382005C67A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75404CA721DE161B005C67A8;
+			remoteInfo = Resource01;
+		};
+		75404CF721DE1CC8005C67A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75404C7621DE1382005C67A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75404CE421DE1B50005C67A8;
+			remoteInfo = Version01;
+		};
+		75404CFE21DE1D76005C67A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75404C7621DE1382005C67A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75404CE421DE1B50005C67A8;
+			remoteInfo = Version01;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75404CE321DE1B50005C67A8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7500A4D621E4769E00453B79 /* TYSDKContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYSDKContainer.h; sourceTree = "<group>"; };
+		7500A4D821E4769E00453B79 /* TYSDKContainer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TYSDKContainer.mm; sourceTree = "<group>"; };
+		7500A4E421E476B200453B79 /* TYSDKLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYSDKLoginManager.m; sourceTree = "<group>"; };
+		7500A4E521E476B200453B79 /* TYSDKResponseBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYSDKResponseBase.h; sourceTree = "<group>"; };
+		7500A4E621E476B200453B79 /* TYSDKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYSDKUser.m; sourceTree = "<group>"; };
+		7500A4E721E476B200453B79 /* TYSDKLoginReq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYSDKLoginReq.m; sourceTree = "<group>"; };
+		7500A4E821E476B200453B79 /* TYSDKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYSDKUser.h; sourceTree = "<group>"; };
+		7500A4E921E476B200453B79 /* TYSDKResponseBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYSDKResponseBase.m; sourceTree = "<group>"; };
+		7500A4EA21E476B200453B79 /* TYSDKLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYSDKLoginManager.h; sourceTree = "<group>"; };
+		7500A4EB21E476B200453B79 /* TYSDKLoginReq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYSDKLoginReq.h; sourceTree = "<group>"; };
+		7500A50221E47FBD00453B79 /* UIColor+ColorChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorChange.h"; sourceTree = "<group>"; };
+		7500A50321E47FBD00453B79 /* UIColor+ColorChange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorChange.m"; sourceTree = "<group>"; };
+		7500A50521E47FD700453B79 /* TYLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLoginView.m; sourceTree = "<group>"; };
+		7500A50621E47FD700453B79 /* TYLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLoginView.h; sourceTree = "<group>"; };
+		7500A50821E47FFD00453B79 /* TYRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYRegisterView.m; sourceTree = "<group>"; };
+		7500A50921E47FFD00453B79 /* TYRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYRegisterView.h; sourceTree = "<group>"; };
+		7500A50C21E485D300453B79 /* TYSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSDK.h; sourceTree = "<group>"; };
+		7500A50D21E485D300453B79 /* TYSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSDK.m; sourceTree = "<group>"; };
+		75026B4621EED6240062D162 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		75026B4821EED6410062D162 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		75026B4921EED6420062D162 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		75026B4F21EEE52E0062D162 /* TYSDKPay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSDKPay.h; sourceTree = "<group>"; };
+		75026B5021EEE52E0062D162 /* TYSDKPay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSDKPay.m; sourceTree = "<group>"; };
+		75151A3621E6DF7C00CF45AA /* TYforgetPswView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYforgetPswView.h; sourceTree = "<group>"; };
+		75151A3721E6DF7C00CF45AA /* TYforgetPswView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYforgetPswView.m; sourceTree = "<group>"; };
+		751895EB21E9D8DF002D6C6B /* TYLoginLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLoginLogic.h; sourceTree = "<group>"; };
+		751895EC21E9D8DF002D6C6B /* TYLoginLogic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLoginLogic.m; sourceTree = "<group>"; };
+		75404C7E21DE1382005C67A8 /* TYSDKV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYSDKV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75404C8121DE1382005C67A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75404C8221DE1382005C67A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75404C8421DE1382005C67A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75404C8521DE1382005C67A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75404C8821DE1382005C67A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75404C8A21DE1383005C67A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75404C8D21DE1383005C67A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75404C8F21DE1383005C67A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75404C9021DE1383005C67A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75404CA821DE161B005C67A8 /* TYSDKResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYSDKResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		75404CAA21DE161B005C67A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75404CE521DE1B50005C67A8 /* libTYSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTYSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		757F23B921F07E220067F5DF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		757F23BC21F08D990067F5DF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		757F23BE21F08DA10067F5DF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		757F23C021F08DC90067F5DF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		75A4930421F166FD008ABE99 /* NSString+URLEncode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		75A4930521F166FD008ABE99 /* NSString+URLEncode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		75E80EFE21E837F9008D4D72 /* 1-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-9.png"; sourceTree = "<group>"; };
+		75E80EFF21E837F9008D4D72 /* 1-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-6.png"; sourceTree = "<group>"; };
+		75E80F0021E837F9008D4D72 /* 1-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-5.png"; sourceTree = "<group>"; };
+		75E80F0121E837F9008D4D72 /* 1-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-7.png"; sourceTree = "<group>"; };
+		75E80F0221E837F9008D4D72 /* 1-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-8.png"; sourceTree = "<group>"; };
+		75E80F0C21E84B5E008D4D72 /* TYSDKDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSDKDevice.h; sourceTree = "<group>"; };
+		75E80F0D21E84B5E008D4D72 /* TYSDKDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSDKDevice.m; sourceTree = "<group>"; };
+		75FE8EF921EC584000C4701B /* TYSDKAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSDKAccount.h; sourceTree = "<group>"; };
+		75FE8EFA21EC584000C4701B /* TYSDKAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSDKAccount.m; sourceTree = "<group>"; };
+		75FE8EFD21EC717400C4701B /* TYSDKApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSDKApi.h; sourceTree = "<group>"; };
+		75FE8EFE21EC717400C4701B /* TYSDKApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSDKApi.m; sourceTree = "<group>"; };
+		75FE8F0121EC769100C4701B /* TYSDKDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSDKDataModel.h; sourceTree = "<group>"; };
+		75FE8F0221EC769100C4701B /* TYSDKDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSDKDataModel.m; sourceTree = "<group>"; };
+		75FF3F8121EDB55A00F8B58C /* TY_Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TY_Encryption.m; sourceTree = "<group>"; };
+		75FF3F8221EDB55A00F8B58C /* TY_Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TY_Encryption.h; sourceTree = "<group>"; };
+		75FF3F8521EDBB8F00F8B58C /* TYSDKDataDeal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSDKDataDeal.h; sourceTree = "<group>"; };
+		75FF3F8621EDBB8F00F8B58C /* TYSDKDataDeal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSDKDataDeal.m; sourceTree = "<group>"; };
+		75FF3F8A21EDCA1A00F8B58C /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		75FF3F8B21EDCA1A00F8B58C /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		75FF3F8C21EDCA1A00F8B58C /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		75FF3F8D21EDCA1A00F8B58C /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		75FF3F8E21EDCA1A00F8B58C /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		75FF3F8F21EDCA1A00F8B58C /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		75FF3F9021EDCA1A00F8B58C /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		75FF3F9121EDCA1A00F8B58C /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		75FF3F9221EDCA1A00F8B58C /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		75FF3F9321EDCA1A00F8B58C /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		75FF3F9421EDCA1A00F8B58C /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		75FF3F9521EDCA1A00F8B58C /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		75FF3F9621EDCA1A00F8B58C /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		75FF3F9721EDCA1A00F8B58C /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		75FF3F9821EDCA1A00F8B58C /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		75FF3F9921EDCA1A00F8B58C /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		75FF3F9A21EDCA1A00F8B58C /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		75FF3F9B21EDCA1A00F8B58C /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		75FF3F9C21EDCA1A00F8B58C /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		75FF3F9D21EDCA1A00F8B58C /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		75FF3F9E21EDCA1A00F8B58C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75FF3F9F21EDCA1A00F8B58C /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		75FF3FB721EDE79E00F8B58C /* TYSDKNetW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSDKNetW.h; sourceTree = "<group>"; };
+		75FF3FB821EDE79E00F8B58C /* TYSDKNetW.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSDKNetW.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75404C7B21DE1382005C67A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757F23BA21F07E220067F5DF /* AdSupport.framework in Frameworks */,
+				75026B4C21EEE11D0062D162 /* Bolts.framework in Frameworks */,
+				75026B4D21EEE11D0062D162 /* FBSDKCoreKit.framework in Frameworks */,
+				75026B4E21EEE11D0062D162 /* FBSDKLoginKit.framework in Frameworks */,
+				75404CFC21DE1D61005C67A8 /* libTYSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75404CA521DE161B005C67A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75404CE221DE1B50005C67A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757F23C121F08DC90067F5DF /* SystemConfiguration.framework in Frameworks */,
+				757F23BB21F07E310067F5DF /* AdSupport.framework in Frameworks */,
+				75026B4A21EED6430062D162 /* FBSDKLoginKit.framework in Frameworks */,
+				75026B4B21EED6430062D162 /* FBSDKCoreKit.framework in Frameworks */,
+				75026B4721EED6240062D162 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75026B4421EED4A10062D162 /* ExternSDK */ = {
+			isa = PBXGroup;
+			children = (
+				75FF3F8921EDCA1A00F8B58C /* MJExtension */,
+				75026B4521EED5E50062D162 /* FaceB */,
+			);
+			path = ExternSDK;
+			sourceTree = "<group>";
+		};
+		75026B4521EED5E50062D162 /* FaceB */ = {
+			isa = PBXGroup;
+			children = (
+				75026B4921EED6420062D162 /* FBSDKCoreKit.framework */,
+				75026B4821EED6410062D162 /* FBSDKLoginKit.framework */,
+				75026B4621EED6240062D162 /* Bolts.framework */,
+			);
+			path = FaceB;
+			sourceTree = "<group>";
+		};
+		75151A3A21E7167400CF45AA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				75151A3621E6DF7C00CF45AA /* TYforgetPswView.h */,
+				75151A3721E6DF7C00CF45AA /* TYforgetPswView.m */,
+				7500A50621E47FD700453B79 /* TYLoginView.h */,
+				7500A50521E47FD700453B79 /* TYLoginView.m */,
+				7500A50921E47FFD00453B79 /* TYRegisterView.h */,
+				7500A50821E47FFD00453B79 /* TYRegisterView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		75404C7521DE1382005C67A8 = {
+			isa = PBXGroup;
+			children = (
+				75404C8021DE1382005C67A8 /* TYSDKV1 */,
+				75404CA921DE161B005C67A8 /* TYResources */,
+				75404CE621DE1B50005C67A8 /* TYSDK */,
+				75404C7F21DE1382005C67A8 /* Products */,
+				75404CFB21DE1D61005C67A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75404C7F21DE1382005C67A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75404C7E21DE1382005C67A8 /* TYSDKV1.app */,
+				75404CA821DE161B005C67A8 /* TYSDKResource.bundle */,
+				75404CE521DE1B50005C67A8 /* libTYSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75404C8021DE1382005C67A8 /* TYSDKV1 */ = {
+			isa = PBXGroup;
+			children = (
+				75404C8121DE1382005C67A8 /* AppDelegate.h */,
+				75404C8221DE1382005C67A8 /* AppDelegate.m */,
+				75404C8421DE1382005C67A8 /* ViewController.h */,
+				75404C8521DE1382005C67A8 /* ViewController.m */,
+				75404C8721DE1382005C67A8 /* Main.storyboard */,
+				75404C8A21DE1383005C67A8 /* Assets.xcassets */,
+				75404C8C21DE1383005C67A8 /* LaunchScreen.storyboard */,
+				75404C8F21DE1383005C67A8 /* Info.plist */,
+				75404C9021DE1383005C67A8 /* main.m */,
+			);
+			path = TYSDKV1;
+			sourceTree = "<group>";
+		};
+		75404CA921DE161B005C67A8 /* TYResources */ = {
+			isa = PBXGroup;
+			children = (
+				75E80F0021E837F9008D4D72 /* 1-5.png */,
+				75E80EFF21E837F9008D4D72 /* 1-6.png */,
+				75E80F0121E837F9008D4D72 /* 1-7.png */,
+				75E80F0221E837F9008D4D72 /* 1-8.png */,
+				75E80EFE21E837F9008D4D72 /* 1-9.png */,
+				75404CAA21DE161B005C67A8 /* Info.plist */,
+			);
+			path = TYResources;
+			sourceTree = "<group>";
+		};
+		75404CE621DE1B50005C67A8 /* TYSDK */ = {
+			isa = PBXGroup;
+			children = (
+				75026B4421EED4A10062D162 /* ExternSDK */,
+				75FF3FB621EDE74800F8B58C /* NetWorking */,
+				75E80F1021E84B7A008D4D72 /* Data */,
+				75151A3A21E7167400CF45AA /* UI */,
+				7500A50C21E485D300453B79 /* TYSDK.h */,
+				7500A50D21E485D300453B79 /* TYSDK.m */,
+				751895EB21E9D8DF002D6C6B /* TYLoginLogic.h */,
+				751895EC21E9D8DF002D6C6B /* TYLoginLogic.m */,
+				7500A4EB21E476B200453B79 /* TYSDKLoginReq.h */,
+				7500A4E721E476B200453B79 /* TYSDKLoginReq.m */,
+				7500A4E521E476B200453B79 /* TYSDKResponseBase.h */,
+				7500A4E921E476B200453B79 /* TYSDKResponseBase.m */,
+				75FF3F8221EDB55A00F8B58C /* TY_Encryption.h */,
+				75FF3F8121EDB55A00F8B58C /* TY_Encryption.m */,
+				7500A4D621E4769E00453B79 /* TYSDKContainer.h */,
+				7500A4D821E4769E00453B79 /* TYSDKContainer.mm */,
+				7500A4EA21E476B200453B79 /* TYSDKLoginManager.h */,
+				7500A4E421E476B200453B79 /* TYSDKLoginManager.m */,
+				7500A50221E47FBD00453B79 /* UIColor+ColorChange.h */,
+				7500A50321E47FBD00453B79 /* UIColor+ColorChange.m */,
+				75FE8EFD21EC717400C4701B /* TYSDKApi.h */,
+				75FE8EFE21EC717400C4701B /* TYSDKApi.m */,
+				75026B4F21EEE52E0062D162 /* TYSDKPay.h */,
+				75026B5021EEE52E0062D162 /* TYSDKPay.m */,
+				75A4930421F166FD008ABE99 /* NSString+URLEncode.h */,
+				75A4930521F166FD008ABE99 /* NSString+URLEncode.m */,
+			);
+			path = TYSDK;
+			sourceTree = "<group>";
+		};
+		75404CFB21DE1D61005C67A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				757F23C021F08DC90067F5DF /* SystemConfiguration.framework */,
+				757F23B921F07E220067F5DF /* AdSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75E80F1021E84B7A008D4D72 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				75FE8F0121EC769100C4701B /* TYSDKDataModel.h */,
+				75FE8F0221EC769100C4701B /* TYSDKDataModel.m */,
+				757F23BC21F08D990067F5DF /* Reachability.h */,
+				757F23BE21F08DA10067F5DF /* Reachability.m */,
+				75E80F0C21E84B5E008D4D72 /* TYSDKDevice.h */,
+				75E80F0D21E84B5E008D4D72 /* TYSDKDevice.m */,
+				7500A4E821E476B200453B79 /* TYSDKUser.h */,
+				7500A4E621E476B200453B79 /* TYSDKUser.m */,
+				75FE8EF921EC584000C4701B /* TYSDKAccount.h */,
+				75FE8EFA21EC584000C4701B /* TYSDKAccount.m */,
+				75FF3F8521EDBB8F00F8B58C /* TYSDKDataDeal.h */,
+				75FF3F8621EDBB8F00F8B58C /* TYSDKDataDeal.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		75FF3F8921EDCA1A00F8B58C /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				75FF3F8A21EDCA1A00F8B58C /* MJPropertyKey.h */,
+				75FF3F8B21EDCA1A00F8B58C /* NSObject+MJClass.h */,
+				75FF3F8C21EDCA1A00F8B58C /* NSString+MJExtension.h */,
+				75FF3F8D21EDCA1A00F8B58C /* MJPropertyType.m */,
+				75FF3F8E21EDCA1A00F8B58C /* NSObject+MJProperty.h */,
+				75FF3F8F21EDCA1A00F8B58C /* MJExtensionConst.h */,
+				75FF3F9021EDCA1A00F8B58C /* NSObject+MJKeyValue.m */,
+				75FF3F9121EDCA1A00F8B58C /* MJProperty.m */,
+				75FF3F9221EDCA1A00F8B58C /* MJFoundation.h */,
+				75FF3F9321EDCA1A00F8B58C /* NSObject+MJCoding.m */,
+				75FF3F9421EDCA1A00F8B58C /* MJExtension.h */,
+				75FF3F9521EDCA1A00F8B58C /* MJExtensionConst.m */,
+				75FF3F9621EDCA1A00F8B58C /* NSObject+MJProperty.m */,
+				75FF3F9721EDCA1A00F8B58C /* MJPropertyType.h */,
+				75FF3F9821EDCA1A00F8B58C /* NSObject+MJClass.m */,
+				75FF3F9921EDCA1A00F8B58C /* NSString+MJExtension.m */,
+				75FF3F9A21EDCA1A00F8B58C /* MJPropertyKey.m */,
+				75FF3F9B21EDCA1A00F8B58C /* MJProperty.h */,
+				75FF3F9C21EDCA1A00F8B58C /* NSObject+MJKeyValue.h */,
+				75FF3F9D21EDCA1A00F8B58C /* NSObject+MJCoding.h */,
+				75FF3F9E21EDCA1A00F8B58C /* Info.plist */,
+				75FF3F9F21EDCA1A00F8B58C /* MJFoundation.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		75FF3FB621EDE74800F8B58C /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				75FF3FB721EDE79E00F8B58C /* TYSDKNetW.h */,
+				75FF3FB821EDE79E00F8B58C /* TYSDKNetW.m */,
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		75404CEE21DE1C01005C67A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FF3FA021EDCA1A00F8B58C /* MJPropertyKey.h in Headers */,
+				75FE8F0321EC769100C4701B /* TYSDKDataModel.h in Headers */,
+				75FF3FA821EDCA1A00F8B58C /* MJFoundation.h in Headers */,
+				75FF3FB321EDCA1A00F8B58C /* NSObject+MJCoding.h in Headers */,
+				75FF3FB121EDCA1A00F8B58C /* MJProperty.h in Headers */,
+				75026B5121EEE52E0062D162 /* TYSDKPay.h in Headers */,
+				75FE8EFF21EC717400C4701B /* TYSDKApi.h in Headers */,
+				7500A50E21E485D300453B79 /* TYSDK.h in Headers */,
+				75151A3821E6DF7C00CF45AA /* TYforgetPswView.h in Headers */,
+				75FF3FB921EDE79E00F8B58C /* TYSDKNetW.h in Headers */,
+				75FF3FB221EDCA1A00F8B58C /* NSObject+MJKeyValue.h in Headers */,
+				75FF3FAD21EDCA1A00F8B58C /* MJPropertyType.h in Headers */,
+				75FE8EFB21EC584000C4701B /* TYSDKAccount.h in Headers */,
+				7500A51521E48D2A00453B79 /* TYLoginView.h in Headers */,
+				75A4930621F166FD008ABE99 /* NSString+URLEncode.h in Headers */,
+				75FF3FA121EDCA1A00F8B58C /* NSObject+MJClass.h in Headers */,
+				7500A4EF21E476B200453B79 /* TYSDKResponseBase.h in Headers */,
+				7500A4FA21E476B200453B79 /* TYSDKLoginManager.h in Headers */,
+				7500A4FB21E476B200453B79 /* TYSDKLoginReq.h in Headers */,
+				75FF3F8721EDBB8F00F8B58C /* TYSDKDataDeal.h in Headers */,
+				757F23BD21F08D990067F5DF /* Reachability.h in Headers */,
+				75FF3F8421EDB55A00F8B58C /* TY_Encryption.h in Headers */,
+				7500A4DA21E4769E00453B79 /* TYSDKContainer.h in Headers */,
+				7500A51421E48D2300453B79 /* UIColor+ColorChange.h in Headers */,
+				75FF3FA521EDCA1A00F8B58C /* MJExtensionConst.h in Headers */,
+				75FF3FA221EDCA1A00F8B58C /* NSString+MJExtension.h in Headers */,
+				7500A4F621E476B200453B79 /* TYSDKUser.h in Headers */,
+				75E80F0E21E84B5E008D4D72 /* TYSDKDevice.h in Headers */,
+				7500A50B21E47FFE00453B79 /* TYRegisterView.h in Headers */,
+				75FF3FA421EDCA1A00F8B58C /* NSObject+MJProperty.h in Headers */,
+				751895ED21E9D8DF002D6C6B /* TYLoginLogic.h in Headers */,
+				75FF3FAA21EDCA1A00F8B58C /* MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		75404C7D21DE1382005C67A8 /* TYSDKV1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75404C9421DE1383005C67A8 /* Build configuration list for PBXNativeTarget "TYSDKV1" */;
+			buildPhases = (
+				75404C7A21DE1382005C67A8 /* Sources */,
+				75404C7B21DE1382005C67A8 /* Frameworks */,
+				75404C7C21DE1382005C67A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75404CFF21DE1D76005C67A8 /* PBXTargetDependency */,
+				75404CB121DE166E005C67A8 /* PBXTargetDependency */,
+			);
+			name = TYSDKV1;
+			productName = TYSDKV1;
+			productReference = 75404C7E21DE1382005C67A8 /* TYSDKV1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75404CA721DE161B005C67A8 /* TYSDKResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75404CAB21DE161B005C67A8 /* Build configuration list for PBXNativeTarget "TYSDKResource" */;
+			buildPhases = (
+				75404CA421DE161B005C67A8 /* Sources */,
+				75404CA521DE161B005C67A8 /* Frameworks */,
+				7500A51A21E490BD00453B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYSDKResource;
+			productName = Resource01;
+			productReference = 75404CA821DE161B005C67A8 /* TYSDKResource.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		75404CE421DE1B50005C67A8 /* TYSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75404CEB21DE1B50005C67A8 /* Build configuration list for PBXNativeTarget "TYSDK" */;
+			buildPhases = (
+				75404CEE21DE1C01005C67A8 /* Headers */,
+				75404CE121DE1B50005C67A8 /* Sources */,
+				75404CE221DE1B50005C67A8 /* Frameworks */,
+				75404CE321DE1B50005C67A8 /* CopyFiles */,
+				75404CFA21DE1CED005C67A8 /* ShellScript */,
+				75E80EE421E82C16008D4D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYSDK;
+			productName = Version01;
+			productReference = 75404CE521DE1B50005C67A8 /* libTYSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75404C7621DE1382005C67A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = tianyou_ios;
+				TargetAttributes = {
+					75404C7D21DE1382005C67A8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					75404CA721DE161B005C67A8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					75404CE421DE1B50005C67A8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					75404CF121DE1CBB005C67A8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 75404C7921DE1382005C67A8 /* Build configuration list for PBXProject "TYSDKV1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75404C7521DE1382005C67A8;
+			productRefGroup = 75404C7F21DE1382005C67A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75404C7D21DE1382005C67A8 /* TYSDKV1 */,
+				75404CA721DE161B005C67A8 /* TYSDKResource */,
+				75404CE421DE1B50005C67A8 /* TYSDK */,
+				75404CF121DE1CBB005C67A8 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7500A51A21E490BD00453B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E80F0521E837F9008D4D72 /* 1-5.png in Resources */,
+				75E80F0421E837F9008D4D72 /* 1-6.png in Resources */,
+				75E80F0321E837F9008D4D72 /* 1-9.png in Resources */,
+				75E80F0621E837F9008D4D72 /* 1-7.png in Resources */,
+				75E80F0721E837F9008D4D72 /* 1-8.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75404C7C21DE1382005C67A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75404CFD21DE1D68005C67A8 /* TYSDKResource.bundle in Resources */,
+				75404C8E21DE1383005C67A8 /* LaunchScreen.storyboard in Resources */,
+				75404C8B21DE1383005C67A8 /* Assets.xcassets in Resources */,
+				75404C8921DE1382005C67A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E80EE421E82C16008D4D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FF3FB421EDCA1A00F8B58C /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75404CF921DE1CCC005C67A8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=\"Version01\"\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_EXECUTABLE_UNIVERSAL_PATH=\"libUniversal${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}/DependentBuilds\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\"\n\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\" \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_UNIVERSAL_PATH}\"\n";
+		};
+		75404CFA21DE1CED005C67A8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Headers\"\n\n# Link the \"Current\" version to \"${FRAMEWORK_VERSION}\"\nln -sfh ${FRAMEWORK_VERSION} \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\nln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\nln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\ncp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Headers\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75404C7A21DE1382005C67A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75404C8621DE1382005C67A8 /* ViewController.m in Sources */,
+				75404C9121DE1383005C67A8 /* main.m in Sources */,
+				75404C8321DE1382005C67A8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75404CA421DE161B005C67A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75404CE121DE1B50005C67A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7500A50421E47FBD00453B79 /* UIColor+ColorChange.m in Sources */,
+				75FF3F8821EDBB8F00F8B58C /* TYSDKDataDeal.m in Sources */,
+				7500A50A21E47FFE00453B79 /* TYRegisterView.m in Sources */,
+				7500A4E021E4769E00453B79 /* TYSDKContainer.mm in Sources */,
+				757F23BF21F08DA10067F5DF /* Reachability.m in Sources */,
+				75FF3FB021EDCA1A00F8B58C /* MJPropertyKey.m in Sources */,
+				7500A4F521E476B200453B79 /* TYSDKLoginReq.m in Sources */,
+				75FF3FBA21EDE79E00F8B58C /* TYSDKNetW.m in Sources */,
+				7500A4F221E476B200453B79 /* TYSDKUser.m in Sources */,
+				75FF3FAF21EDCA1A00F8B58C /* NSString+MJExtension.m in Sources */,
+				75FF3FA921EDCA1A00F8B58C /* NSObject+MJCoding.m in Sources */,
+				75FF3FAC21EDCA1A00F8B58C /* NSObject+MJProperty.m in Sources */,
+				75FE8F0421EC769100C4701B /* TYSDKDataModel.m in Sources */,
+				7500A4EE21E476B200453B79 /* TYSDKLoginManager.m in Sources */,
+				75FF3FA621EDCA1A00F8B58C /* NSObject+MJKeyValue.m in Sources */,
+				75151A3921E6DF7C00CF45AA /* TYforgetPswView.m in Sources */,
+				75E80F0F21E84B5E008D4D72 /* TYSDKDevice.m in Sources */,
+				75FF3FB521EDCA1A00F8B58C /* MJFoundation.m in Sources */,
+				75FF3F8321EDB55A00F8B58C /* TY_Encryption.m in Sources */,
+				75A4930721F166FD008ABE99 /* NSString+URLEncode.m in Sources */,
+				7500A50721E47FD700453B79 /* TYLoginView.m in Sources */,
+				75026B5221EEE52E0062D162 /* TYSDKPay.m in Sources */,
+				75FF3FA321EDCA1A00F8B58C /* MJPropertyType.m in Sources */,
+				7500A50F21E485D300453B79 /* TYSDK.m in Sources */,
+				75FE8F0021EC717400C4701B /* TYSDKApi.m in Sources */,
+				75FF3FAB21EDCA1A00F8B58C /* MJExtensionConst.m in Sources */,
+				75FF3FA721EDCA1A00F8B58C /* MJProperty.m in Sources */,
+				7500A4F921E476B200453B79 /* TYSDKResponseBase.m in Sources */,
+				751895EE21E9D8DF002D6C6B /* TYLoginLogic.m in Sources */,
+				75FF3FAE21EDCA1A00F8B58C /* NSObject+MJClass.m in Sources */,
+				75FE8EFC21EC584000C4701B /* TYSDKAccount.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75404CB121DE166E005C67A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75404CA721DE161B005C67A8 /* TYSDKResource */;
+			targetProxy = 75404CB021DE166E005C67A8 /* PBXContainerItemProxy */;
+		};
+		75404CF621DE1CC5005C67A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75404CA721DE161B005C67A8 /* TYSDKResource */;
+			targetProxy = 75404CF521DE1CC5005C67A8 /* PBXContainerItemProxy */;
+		};
+		75404CF821DE1CC8005C67A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75404CE421DE1B50005C67A8 /* TYSDK */;
+			targetProxy = 75404CF721DE1CC8005C67A8 /* PBXContainerItemProxy */;
+		};
+		75404CFF21DE1D76005C67A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75404CE421DE1B50005C67A8 /* TYSDK */;
+			targetProxy = 75404CFE21DE1D76005C67A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75404C8721DE1382005C67A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75404C8821DE1382005C67A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75404C8C21DE1383005C67A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75404C8D21DE1383005C67A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75404C9221DE1383005C67A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75404C9321DE1383005C67A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75404C9521DE1383005C67A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TYSDK/ExternSDK/FaceB",
+				);
+				INFOPLIST_FILE = TYSDKV1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.holyholy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75404C9621DE1383005C67A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TYSDK/ExternSDK/FaceB",
+				);
+				INFOPLIST_FILE = TYSDKV1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.holyholy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75404CAC21DE161B005C67A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/TYResources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = tianyou.Resource01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		75404CAD21DE161B005C67A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/TYResources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = tianyou.Resource01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		75404CEC21DE1B50005C67A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TYSDK/ExternSDK/FaceB",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75404CED21DE1B50005C67A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TYSDK/ExternSDK/FaceB",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75404CF321DE1CBB005C67A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75404CF421DE1CBB005C67A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75404C7921DE1382005C67A8 /* Build configuration list for PBXProject "TYSDKV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75404C9221DE1383005C67A8 /* Debug */,
+				75404C9321DE1383005C67A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75404C9421DE1383005C67A8 /* Build configuration list for PBXNativeTarget "TYSDKV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75404C9521DE1383005C67A8 /* Debug */,
+				75404C9621DE1383005C67A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75404CAB21DE161B005C67A8 /* Build configuration list for PBXNativeTarget "TYSDKResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75404CAC21DE161B005C67A8 /* Debug */,
+				75404CAD21DE161B005C67A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75404CEB21DE1B50005C67A8 /* Build configuration list for PBXNativeTarget "TYSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75404CEC21DE1B50005C67A8 /* Debug */,
+				75404CED21DE1B50005C67A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75404CF221DE1CBB005C67A8 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75404CF321DE1CBB005C67A8 /* Debug */,
+				75404CF421DE1CBB005C67A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75404C7621DE1382005C67A8 /* Project object */;
+}

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7500A47721E3456600453B79 /* forgetPswViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A47621E3456600453B79 /* forgetPswViewController.m */; };
+		7500A47A21E3459900453B79 /* loginForVistorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A47921E3459900453B79 /* loginForVistorsViewController.m */; };
+		7500A47C21E35A0E00453B79 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7500A47B21E35A0E00453B79 /* 1.jpg */; };
+		7500A48021E438B100453B79 /* TYSDKLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A47F21E438B100453B79 /* TYSDKLoginManager.m */; };
+		7500A48821E447D000453B79 /* TYSDKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A48721E447D000453B79 /* TYSDKUser.m */; };
+		7500A49421E44A0E00453B79 /* TYSDKContainer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7500A49321E44A0E00453B79 /* TYSDKContainer.mm */; };
+		7500A49821E4557200453B79 /* TYSDKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A49721E4557200453B79 /* TYSDKConfig.m */; };
+		7500A49B21E4567B00453B79 /* TYSDKLoginReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A49A21E4567B00453B79 /* TYSDKLoginReq.m */; };
+		7500A49E21E46E5800453B79 /* TYSDKResponseBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A49D21E46E5800453B79 /* TYSDKResponseBase.m */; };
 		75165F3B21DEF5D60015CAB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75165F3A21DEF5D60015CAB9 /* AppDelegate.m */; };
 		75165F3E21DEF5D60015CAB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75165F3D21DEF5D60015CAB9 /* ViewController.m */; };
 		75165F4121DEF5D60015CAB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75165F3F21DEF5D60015CAB9 /* Main.storyboard */; };
@@ -19,9 +28,29 @@
 		75165F5F21DEFED70015CAB9 /* 1-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 75165F5C21DEFED70015CAB9 /* 1-9.png */; };
 		75165F6221DEFEE30015CAB9 /* 1-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 75165F6021DEFEE30015CAB9 /* 1-8.png */; };
 		75165F6321DEFEE30015CAB9 /* 1-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 75165F6121DEFEE30015CAB9 /* 1-7.png */; };
+		75784A1821E2F8DB00FA42AA /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75784A1721E2F8DB00FA42AA /* loginViewController.m */; };
+		75784A1C21E3042900FA42AA /* registerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75784A1B21E3042900FA42AA /* registerViewController.m */; };
+		75FE8F0721EC97BB00C4701B /* Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FE8F0621EC97BB00C4701B /* Encryption.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7500A47521E3456600453B79 /* forgetPswViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = forgetPswViewController.h; sourceTree = "<group>"; };
+		7500A47621E3456600453B79 /* forgetPswViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = forgetPswViewController.m; sourceTree = "<group>"; };
+		7500A47821E3459900453B79 /* loginForVistorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loginForVistorsViewController.h; sourceTree = "<group>"; };
+		7500A47921E3459900453B79 /* loginForVistorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginForVistorsViewController.m; sourceTree = "<group>"; };
+		7500A47B21E35A0E00453B79 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		7500A47E21E438B100453B79 /* TYSDKLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSDKLoginManager.h; sourceTree = "<group>"; };
+		7500A47F21E438B100453B79 /* TYSDKLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSDKLoginManager.m; sourceTree = "<group>"; };
+		7500A48621E447D000453B79 /* TYSDKUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSDKUser.h; sourceTree = "<group>"; };
+		7500A48721E447D000453B79 /* TYSDKUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSDKUser.m; sourceTree = "<group>"; };
+		7500A49221E44A0E00453B79 /* TYSDKContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSDKContainer.h; sourceTree = "<group>"; };
+		7500A49321E44A0E00453B79 /* TYSDKContainer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TYSDKContainer.mm; sourceTree = "<group>"; };
+		7500A49621E4557200453B79 /* TYSDKConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSDKConfig.h; sourceTree = "<group>"; };
+		7500A49721E4557200453B79 /* TYSDKConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSDKConfig.m; sourceTree = "<group>"; };
+		7500A49921E4567B00453B79 /* TYSDKLoginReq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSDKLoginReq.h; sourceTree = "<group>"; };
+		7500A49A21E4567B00453B79 /* TYSDKLoginReq.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSDKLoginReq.m; sourceTree = "<group>"; };
+		7500A49C21E46E5800453B79 /* TYSDKResponseBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSDKResponseBase.h; sourceTree = "<group>"; };
+		7500A49D21E46E5800453B79 /* TYSDKResponseBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSDKResponseBase.m; sourceTree = "<group>"; };
 		75165F3621DEF5D60015CAB9 /* UITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75165F3921DEF5D60015CAB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		75165F3A21DEF5D60015CAB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +68,12 @@
 		75165F5C21DEFED70015CAB9 /* 1-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-9.png"; sourceTree = "<group>"; };
 		75165F6021DEFEE30015CAB9 /* 1-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-8.png"; sourceTree = "<group>"; };
 		75165F6121DEFEE30015CAB9 /* 1-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-7.png"; sourceTree = "<group>"; };
+		75784A1621E2F8DB00FA42AA /* loginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		75784A1721E2F8DB00FA42AA /* loginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		75784A1A21E3042900FA42AA /* registerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = registerViewController.h; sourceTree = "<group>"; };
+		75784A1B21E3042900FA42AA /* registerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = registerViewController.m; sourceTree = "<group>"; };
+		75FE8F0521EC97BB00C4701B /* Encryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Encryption.h; sourceTree = "<group>"; };
+		75FE8F0621EC97BB00C4701B /* Encryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Encryption.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +87,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7500A48121E4463800453B79 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7500A48521E4472700453B79 /* Data */,
+				7500A48421E4471C00453B79 /* SDK */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7500A48221E4466A00453B79 /* Replaced */ = {
+			isa = PBXGroup;
+			children = (
+				7500A49221E44A0E00453B79 /* TYSDKContainer.h */,
+				7500A49321E44A0E00453B79 /* TYSDKContainer.mm */,
+				7500A49621E4557200453B79 /* TYSDKConfig.h */,
+				7500A49721E4557200453B79 /* TYSDKConfig.m */,
+			);
+			path = Replaced;
+			sourceTree = "<group>";
+		};
+		7500A48321E4470B00453B79 /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		7500A48421E4471C00453B79 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				7500A47E21E438B100453B79 /* TYSDKLoginManager.h */,
+				7500A47F21E438B100453B79 /* TYSDKLoginManager.m */,
+				7500A48621E447D000453B79 /* TYSDKUser.h */,
+				7500A48721E447D000453B79 /* TYSDKUser.m */,
+				7500A49921E4567B00453B79 /* TYSDKLoginReq.h */,
+				7500A49A21E4567B00453B79 /* TYSDKLoginReq.m */,
+				7500A49C21E46E5800453B79 /* TYSDKResponseBase.h */,
+				7500A49D21E46E5800453B79 /* TYSDKResponseBase.m */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		7500A48521E4472700453B79 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		75165F2D21DEF5D60015CAB9 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +156,10 @@
 		75165F3821DEF5D60015CAB9 /* UITest */ = {
 			isa = PBXGroup;
 			children = (
+				7500A48321E4470B00453B79 /* ThirdLib */,
+				7500A48221E4466A00453B79 /* Replaced */,
+				7500A48121E4463800453B79 /* Base */,
+				75784A1921E2F8E300FA42AA /* UI */,
 				75165F3921DEF5D60015CAB9 /* AppDelegate.h */,
 				75165F3A21DEF5D60015CAB9 /* AppDelegate.m */,
 				75165F3C21DEF5D60015CAB9 /* ViewController.h */,
@@ -83,6 +171,8 @@
 				75165F4821DEF5D80015CAB9 /* main.m */,
 				75165F5621DEFB600015CAB9 /* UIColor+ColorChange.h */,
 				75165F5721DEFB600015CAB9 /* UIColor+ColorChange.m */,
+				75FE8F0521EC97BB00C4701B /* Encryption.h */,
+				75FE8F0621EC97BB00C4701B /* Encryption.m */,
 			);
 			path = UITest;
 			sourceTree = "<group>";
@@ -93,10 +183,26 @@
 				75165F6121DEFEE30015CAB9 /* 1-7.png */,
 				75165F6021DEFEE30015CAB9 /* 1-8.png */,
 				75165F5A21DEFED70015CAB9 /* 1-5.png */,
+				7500A47B21E35A0E00453B79 /* 1.jpg */,
 				75165F5B21DEFED70015CAB9 /* 1-6.png */,
 				75165F5C21DEFED70015CAB9 /* 1-9.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		75784A1921E2F8E300FA42AA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				75784A1621E2F8DB00FA42AA /* loginViewController.h */,
+				75784A1721E2F8DB00FA42AA /* loginViewController.m */,
+				75784A1A21E3042900FA42AA /* registerViewController.h */,
+				75784A1B21E3042900FA42AA /* registerViewController.m */,
+				7500A47521E3456600453B79 /* forgetPswViewController.h */,
+				7500A47621E3456600453B79 /* forgetPswViewController.m */,
+				7500A47821E3459900453B79 /* loginForVistorsViewController.h */,
+				7500A47921E3459900453B79 /* loginForVistorsViewController.m */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +268,7 @@
 				75165F5D21DEFED70015CAB9 /* 1-5.png in Resources */,
 				75165F5F21DEFED70015CAB9 /* 1-9.png in Resources */,
 				75165F4321DEF5D80015CAB9 /* Assets.xcassets in Resources */,
+				7500A47C21E35A0E00453B79 /* 1.jpg in Resources */,
 				75165F4121DEF5D60015CAB9 /* Main.storyboard in Resources */,
 				75165F6321DEFEE30015CAB9 /* 1-7.png in Resources */,
 			);
@@ -174,10 +281,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7500A49B21E4567B00453B79 /* TYSDKLoginReq.m in Sources */,
+				75FE8F0721EC97BB00C4701B /* Encryption.m in Sources */,
 				75165F3E21DEF5D60015CAB9 /* ViewController.m in Sources */,
+				7500A49821E4557200453B79 /* TYSDKConfig.m in Sources */,
+				7500A48021E438B100453B79 /* TYSDKLoginManager.m in Sources */,
+				7500A48821E447D000453B79 /* TYSDKUser.m in Sources */,
+				75784A1821E2F8DB00FA42AA /* loginViewController.m in Sources */,
+				7500A47721E3456600453B79 /* forgetPswViewController.m in Sources */,
+				7500A47A21E3459900453B79 /* loginForVistorsViewController.m in Sources */,
 				75165F5821DEFB600015CAB9 /* UIColor+ColorChange.m in Sources */,
+				7500A49421E44A0E00453B79 /* TYSDKContainer.mm in Sources */,
+				75784A1C21E3042900FA42AA /* registerViewController.m in Sources */,
 				75165F4921DEF5D80015CAB9 /* main.m in Sources */,
 				75165F3B21DEF5D60015CAB9 /* AppDelegate.m in Sources */,
+				7500A49E21E46E5800453B79 /* TYSDKResponseBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
