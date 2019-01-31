@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7500A47721E3456600453B79 /* forgetPswViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A47621E3456600453B79 /* forgetPswViewController.m */; };
 		7500A47A21E3459900453B79 /* loginForVistorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A47921E3459900453B79 /* loginForVistorsViewController.m */; };
-		7500A47C21E35A0E00453B79 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7500A47B21E35A0E00453B79 /* 1.jpg */; };
 		7500A48021E438B100453B79 /* TYSDKLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A47F21E438B100453B79 /* TYSDKLoginManager.m */; };
 		7500A48821E447D000453B79 /* TYSDKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7500A48721E447D000453B79 /* TYSDKUser.m */; };
 		7500A49421E44A0E00453B79 /* TYSDKContainer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7500A49321E44A0E00453B79 /* TYSDKContainer.mm */; };
@@ -38,7 +37,6 @@
 		7500A47621E3456600453B79 /* forgetPswViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = forgetPswViewController.m; sourceTree = "<group>"; };
 		7500A47821E3459900453B79 /* loginForVistorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loginForVistorsViewController.h; sourceTree = "<group>"; };
 		7500A47921E3459900453B79 /* loginForVistorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginForVistorsViewController.m; sourceTree = "<group>"; };
-		7500A47B21E35A0E00453B79 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		7500A47E21E438B100453B79 /* TYSDKLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSDKLoginManager.h; sourceTree = "<group>"; };
 		7500A47F21E438B100453B79 /* TYSDKLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYSDKLoginManager.m; sourceTree = "<group>"; };
 		7500A48621E447D000453B79 /* TYSDKUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYSDKUser.h; sourceTree = "<group>"; };
@@ -183,7 +181,6 @@
 				75165F6121DEFEE30015CAB9 /* 1-7.png */,
 				75165F6021DEFEE30015CAB9 /* 1-8.png */,
 				75165F5A21DEFED70015CAB9 /* 1-5.png */,
-				7500A47B21E35A0E00453B79 /* 1.jpg */,
 				75165F5B21DEFED70015CAB9 /* 1-6.png */,
 				75165F5C21DEFED70015CAB9 /* 1-9.png */,
 			);
@@ -268,7 +265,6 @@
 				75165F5D21DEFED70015CAB9 /* 1-5.png in Resources */,
 				75165F5F21DEFED70015CAB9 /* 1-9.png in Resources */,
 				75165F4321DEF5D80015CAB9 /* Assets.xcassets in Resources */,
-				7500A47C21E35A0E00453B79 /* 1.jpg in Resources */,
 				75165F4121DEF5D60015CAB9 /* Main.storyboard in Resources */,
 				75165F6321DEFEE30015CAB9 /* 1-7.png in Resources */,
 			);
